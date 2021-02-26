@@ -13,8 +13,7 @@ const setting = {
   
   console.log(theme)
   // result:dark
-  // setting function declare that theme is dark. it does not change theme variable.
-
+  // setting function declare that theme is dark. if does not have variable in theme. it will be "light"
 
   //Array Destruturing
 
@@ -24,8 +23,10 @@ const setting = {
 
   console.log (Mon,Tue,Wen)
 
-  //rename
+  //result: mon tue wen 
 
+  //rename
+// 변수의 이름을 바꾸술 있다
   const setting = {
       color:{
           chosen_color:"dark"
