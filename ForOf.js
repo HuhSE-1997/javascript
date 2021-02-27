@@ -16,3 +16,4 @@ for( const friend of friends){
 for (const i of "hello how are you"){
     console.log(i)
 }
+// string도 넣을수가 있다.
