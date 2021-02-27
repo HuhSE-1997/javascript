@@ -33,3 +33,11 @@ if(true){
 console.log(hello2);
 
 //반면에 var은 안에서 선언해도 결과가 hello2가 나옴
+
+let hello3;
+if(true){
+    hello3 = "hello3"
+}
+console.log(hello3)
+
+// hello3 let으로 선언한 다음 hello3에서 다시 선언한후 hello3으로 출력 
