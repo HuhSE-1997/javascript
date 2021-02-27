@@ -13,7 +13,7 @@ const setting = {
   
   console.log(theme)
   // result:dark
-  // setting function declare that theme is dark. if does not have variable in theme. it will be "light"
+  // setting function declare that theme is dark. if theme does not have variable in theme. it will be "light"
 
   //Array Destruturing
 
