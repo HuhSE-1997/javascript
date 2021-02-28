@@ -33,13 +33,15 @@ class User{
 
   //************************************************************************************** */
 //   this 는 class User 을 나타내고 있음
+// super() 원래 클래스를 가져오는 아이
+
 
   class User{
-    constructor(name, LastName, Email, Password){
-      this.username = name;
-      this.lastname = LastName;
-      this.email = Email;
-      this.Password1 = Password;
+    constructor(options){
+      this.username = options.name;
+      this.lastname = options.lastname;
+      this.email = options.email;
+      this.Password1 = options.Password1;
     };
     sayhello(){
       console.log(`Hello ${this.username}`)
